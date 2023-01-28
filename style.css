@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.heading__text {
+color: rgb(41, 41, 70);
+font-weight: 900;
+}
+
+
+.form__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cityName {
+    border-radius: 4px;
+    height: 36px;
+    margin-right: 5px;
+    width: 20%;
+    padding: 2px;
+}
+
+.result__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.search__result {
+    width: 30%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(55, 55, 96, 1) 35%, rgba(34, 45, 48, 1) 80%, rgba(71, 94, 98, 1) 100%);
+    border-radius: 8px;
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.first__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temperature {
+    font-size: 4rem;
+}
+
+.weather__icon {
+    font-size: 4rem;
+}
+
+.btn {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(55,55,96,1) 35%, rgba(34,45,48,1) 80%, rgba(71,94,98,1) 100%);
+}
